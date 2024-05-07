@@ -1,0 +1,55 @@
+.partner-list-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.partner-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.partner-table th,
+.partner-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.pagination li {
+    cursor: pointer;
+    margin: 0 5px;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+.pagination li.active {
+    background-color: #007bff;
+    color: white;
+}
+
+.editButton{
+    text-decoration:none
+}
+
+.partner-list-button{
+    display: flex;
+    gap: 10px;
+}
+
+.add-partner-button{
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}

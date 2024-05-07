@@ -1,0 +1,48 @@
+.service-usage-container {
+  margin: 20px;
+}
+
+.service-usage-page-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.service-usage-data-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.service-usage-table-header {
+  padding: 10px;
+  background-color: #f2f2f2;
+}
+
+.service-usage-table-cell {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.service-usage-table-cell:first-child {
+  border-left: none;
+}
+
+.service-usage-table-cell:last-child {
+  border-right: none;
+}
+
+.service-used-button-container {
+  margin-top: 20px; /* Add some margin between table and buttons */
+  display: flex;
+  justify-content: center; /* Align buttons to the center */
+  gap: 30px; /* Add a gap of 30px between buttons */
+}
+
+.service-used-button {
+  height: 30px; /* Increase the height of buttons */
+  width: 10%; /* Reduce the width of buttons */
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 3px;
+}
